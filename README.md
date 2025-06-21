@@ -69,7 +69,7 @@ Web Developer & AI Enthusiast from Patna, Bihar
 
 📸 Screenshots
 Add a screenshot here later using:
-![screenshot](images/your-screenshot.png)
+![screenshot](images/screenshot.png)
 
 📄 License
 This project is under the MIT License.
