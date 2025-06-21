@@ -17,22 +17,23 @@ Welcome to my futuristic, interactive, and animated **Portfolio Card** built wit
 ---
 
 ## 📂 Folder Structure
-
 portfolio-card/
-├── index.html # Main animated profile card
-├── profile.json # Dynamic data for name, role, links, etc.
+├── index.html               # Main animated profile card
+├── profile.json             # Dynamic data for name, role, links, etc.
 │
-├── images/
-│ ├── photo.jpg # Your profile picture
-│ └── README.txt # (Optional placeholder file)
+├── images/                  # Profile image folder
+│   ├── photo.jpg            # Your profile picture
+│   └── README.txt           # (Optional placeholder file)
 │
-├── audio/
-│ ├── welcome.mp3 # Played on load
-│ ├── flip.mp3 # Played on card flip
-│ ├── hover.mp3 # Played on icon hover
-│ └── README.txt # (Optional placeholder file)
+├── audio/                   # Audio effects folder
+│   ├── welcome.mp3          # Played on load
+│   ├── flip.mp3             # Played on card flip
+│   ├── hover.mp3            # Played on icon hover
+│   └── README.txt           # (Optional placeholder file)
 │
-└── README.md # This file
+├── LICENSE                  # MIT license file (optional but recommended)
+└── README.md                # Project documentation file
+
 
 
 🌐 Live Website
