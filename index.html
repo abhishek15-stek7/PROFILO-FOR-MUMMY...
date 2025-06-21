@@ -6,9 +6,7 @@
   <title>--Preeti Singh--</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -25,9 +23,9 @@
     }
 
     @keyframes bgMove {
-      0% {background-position: 0% 50%;}
-      50% {background-position: 100% 50%;}
-      100% {background-position: 0% 50%;}
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
     canvas#bgCanvas {
@@ -37,9 +35,7 @@
       z-index: -1;
     }
 
-    .container {
-      perspective: 1000px;
-    }
+    .container { perspective: 1000px; }
 
     .card {
       width: 340px;
@@ -50,9 +46,7 @@
       cursor: pointer;
     }
 
-    .card.flipped {
-      transform: rotateY(180deg);
-    }
+    .card.flipped { transform: rotateY(180deg); }
 
     .face {
       position: absolute;
@@ -167,7 +161,7 @@
   <div class="card" id="card" onclick="flipCard()">
     <div class="face front">
       <div class="profile-img-wrapper">
-        <img id="profile-pic" src="photo.jpg" alt="Profile Picture" onerror="this.src='photo.jpg'">
+        <img id="profile-pic" src="images/photo.jpg" alt="Profile Picture" onerror="this.src='images/photo.jpg'">
       </div>
       <h2 id="profile-name">Loading...</h2>
       <p id="profile-role">Loading role...</p>
@@ -180,10 +174,10 @@
   </div>
 </div>
 
-<!-- Audio Elements -->
-<audio id="welcome-audio" src="welcome.mp3" preload="auto"></audio>
-<audio id="flip-audio" src="flip.mp3" preload="auto"></audio>
-<audio id="hover-sound" src="hover.mp3" preload="auto"></audio>
+<!-- Audio Elements (corrected paths) -->
+<audio id="welcome-audio" src="audio/welcome.mp3" preload="auto"></audio>
+<audio id="flip-audio" src="audio/flip.mp3" preload="auto"></audio>
+<audio id="hover-sound" src="audio/hover.mp3" preload="auto"></audio>
 
 <script>
   async function loadProfile() {
@@ -223,9 +217,7 @@
     const card = document.getElementById("card");
     card.classList.toggle("flipped");
     document.getElementById("flip-audio").play();
-    setTimeout(() => {
-      card.classList.remove("flipped");
-    }, 6000);
+    setTimeout(() => card.classList.remove("flipped"), 6000);
   }
 
   // Particle background
