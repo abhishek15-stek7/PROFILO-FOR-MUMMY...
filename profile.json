@@ -1,0 +1,29 @@
+{
+  "name": "Abhishek Singh",
+  "role": "Web Developer & AI Expert",
+  "image": "images/photo.jpg",
+  "contacts": [
+    {
+      "label": "ambikabhi.14@gmail.com",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "label": "+91 7004292495",
+      "icon": "fas fa-phone"
+    },
+    {
+      "label": "Patna, Bihar, India",
+      "icon": "fas fa-map-marker-alt"
+    }
+  ],
+  "socials": [
+    {
+      "href": "https://github.com/abhishek15-stek7",
+      "icon": "fab fa-github"
+    },
+    {
+      "href": "https://www.instagram.com/its_abhi_2009_/?utm_source=qr",
+      "icon": "fab fa-instagram"
+    }
+  ]
+}
